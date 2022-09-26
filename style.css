@@ -19,12 +19,11 @@ nav {
 
 .busca {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     padding-right: 15px;
     width: 393px;
     height: 40px;
-
     /* Preto/05% */
 
     background: #F5F5F5;
@@ -32,6 +31,33 @@ nav {
 
 
 }
+
+.bbusca {
+
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: none;
+    outline: 0;
+    padding-left: 5%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/50% */
+
+    color: #A2A2A2;
+
+
+
+}
+
+
 
 .login {
     width: 150px;
@@ -41,8 +67,6 @@ nav {
     justify-content: center;
     align-items: center;
     color: blue;
-
-
 }
 
 .home {
@@ -62,7 +86,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 1136px;
+    width: 100%;
     height: 170px;
     padding: 152px;
 }
@@ -139,18 +163,17 @@ main {
     flex-direction: column;
     width: 90%;
     margin: auto;
-
-
-}
-
-.star {
     padding-top: 5%;
 
+
 }
+
+
 
 .textos1 {
     display: flex;
     justify-content: space-between;
+
 }
 
 .starW {
@@ -200,7 +223,8 @@ main {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 10px;
+
+
 
 }
 
@@ -222,6 +246,7 @@ main {
 
 .verT2 {
 
+    padding-bottom: 30%;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -253,10 +278,255 @@ main {
 }
 
 
+.formulario {
+    display: flex;
+    padding: 64px;
+    background: #EAF2FD;
+}
+
+.logo-formu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+.formulario-frases {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.formu-txt1 {
+    width: 176px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
 
 
+    /* Preto/100% */
 
-@media only screen and (max-width: 700px) {
+    color: #464646;
+}
+
+.formu-txt2 {
+    width: 176px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+.formu-txt3 {
+    width: 176px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+.formu-txt4 {
+    width: 176px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+.formu-txt5 {
+    width: 176px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+.formu-txt6 {
+    width: 176px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+.formu-label1 {
+    width: 560px;
+    height: 10px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+.formu-divinp {
+    width: 560px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 16px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgb(126, 129, 130);
+}
+
+.area1 {
+    width: 560px;
+    height: 50px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+    border-radius: 4px;
+    outline: 0;
+    border: none;
+    box-shadow: 0px 2px 2px rgb(126, 129, 130);
+    padding: 12px;
+
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/50% */
+
+    color: #A2A2A2;
+
+}
+
+.formu-divinp P {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+    /* Preto/50% */
+    color: #A2A2A2;
+}
+
+.formu-input1 {
+    outline: 0;
+    border: none;
+
+    width: 560px;
+    height: 40px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    display: flex;
+    align-items: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+footer {
+    text-align: center;
+    padding: 35px;
+}
+
+.formb {
+    width: 165px;
+    height: 51px;
+    border: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
+    background: #2A7AE4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
 
     .home {
 
@@ -269,7 +539,7 @@ main {
 
     }
 
-    
+
 
     nav {
         display: flex;
@@ -278,23 +548,37 @@ main {
         gap: 10px;
     }
 
-    .busca {
-        order: 1;
-    }
 
     .textosHome {
         width: 100px;
         font-size: 10px;
-        padding: 0px;
+        padding-top: 20px;
         justify-content: end;
-        padding-left: 20px;
-        justify-content: end;
+        padding-top: 150px;
+        padding-left: 50px;
     }
 
-    div .txt1sec {
-        width: 328px;
-        height: 26px;
+    .txt1sec {
+        width: 704px;
+        height: 61px;
 
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 61px;
+        /* identical to box height */
+
+
+        /* Preto/branco */
+
+        color: #FFFFFF;
+
+    }
+
+    .txt2sec {
+        width: 704px;
+        height: 26px;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -305,41 +589,26 @@ main {
 
         /* Preto/branco */
 
-        color: #FFFFFF;
 
-
-    }
-
-    div .txt2sec {
-        width: 328px;
-        height: 16px;
-        
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 16px;
-        
-        /* Preto/branco */
-        
-        color: #FFFFFF;
     }
 
     .butao1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 130px;
-        height: 51px;
+        width: 119px;
+        height: 40px;
+
+        /* Azul/100% */
+
         background: #2A7AE4;
 
 
         font-family: 'Raleway';
         font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .starW {
@@ -379,7 +648,7 @@ main {
     .produtos {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+
 
 
 
@@ -393,11 +662,75 @@ main {
         width: 156px;
     }
 
+    .formulario {
+        width: 768px;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin: auto;
 
+    }
 
+    .logo-formu {
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30%;
+        gap: 10px;
+    }
 
+    .formulario-frases {
+        width: 176px;
 
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
 
+    .formu-divinp,
+    .formu-input1,
+    .formu-label1 {
+        width: 350px;
+        height: 56px;
+    }
+
+    .formu-label1 {
+        height: 20px;
+    }
+
+    .area1 {
+        width: 350px;
+        height: 82px;
+        padding: 10px;
+    }
+
+    .formb {
+        width: 151px;
+        height: 40px;
+    }
+
+    form {
+        width: 434px;
+
+        padding: 10px;
+
+    }
+
+    footer {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+        /* Preto/100% */
+
+        color: #464646;
+
+    }
 }
 
 
@@ -462,15 +795,15 @@ main {
     div .txt2sec {
         width: 328px;
         height: 16px;
-        
+
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 600;
         font-size: 14px;
         line-height: 16px;
-        
+
         /* Preto/branco */
-        
+
         color: #FFFFFF;
     }
 
@@ -540,6 +873,113 @@ main {
 
     .img1 {
         width: 156px;
+    }
+
+
+    .formulario {
+        width: 360px;
+        height: 600px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+    .imgco {
+        width: 151px;
+        height: 38px;
+    }
+
+    .logo-formu {
+        flex-direction: column;
+        gap: 10px;
+        width: 151px;
+    }
+
+    .formulario-frases {
+        width: 176px;
+        height: 19px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        /* Preto/100% */
+        
+        color: #464646;
+        
+    }
+
+
+    .formu-label1 {
+        width: 328px;
+        height: 19px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+
+        /* Preto/100% */
+
+        color: #464646;
+    }
+
+    .formu-input1 {
+        width: 328px;
+        height: 56px;
+    }
+
+    .formu-divinp {
+        width: 328px;
+        height: 56px;
+
+
+    }
+
+    .area1 {
+        width: 328px;
+        height: 82px;
+    }
+
+    .formb {
+        width: 151px;
+        height: 40px;
+    }
+
+    form {
+        width: 360px;
+        padding: 0;
+        align-items: center;
+    }
+
+    footer {
+        width: 265px;
+        height: 38px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        
+        /* Preto/100% */
+        
+        color: #464646;
+        
+
     }
 
 
