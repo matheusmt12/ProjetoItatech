@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin:0px;
     padding: 0px;
 }
 
@@ -663,10 +663,10 @@ form {
     }
 
     .formulario {
-        width: 768px;
+        width:100%;
         padding: 0;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding: 0;
         margin: auto;
 
@@ -680,7 +680,7 @@ form {
     }
 
     .formulario-frases {
-        width: 176px;
+        width: 50%;
 
         font-family: 'Raleway';
         font-style: normal;
@@ -692,8 +692,9 @@ form {
     .formu-divinp,
     .formu-input1,
     .formu-label1 {
-        width: 350px;
+        width: 100%;
         height: 56px;
+        
     }
 
     .formu-label1 {
@@ -701,7 +702,7 @@ form {
     }
 
     .area1 {
-        width: 350px;
+        width: 100%;
         height: 82px;
         padding: 10px;
     }
@@ -712,7 +713,7 @@ form {
     }
 
     form {
-        width: 434px;
+        width: 50%;
 
         padding: 10px;
 
@@ -731,6 +732,13 @@ form {
         color: #464646;
 
     }
+
+    #remove{
+        display: none;
+    }
+
+    
+    
 }
 
 
@@ -743,7 +751,7 @@ form {
 
 
         height: 192px;
-        width: 360px;
+        width: 100%;
         background: linear-gradient(180deg,
                 rgba(0, 0, 0, 0) 41.15%,
                 rgba(0, 0, 0, 0.8) 100%),
@@ -877,7 +885,7 @@ form {
 
 
     .formulario {
-        width: 360px;
+        width: 100%;
         height: 600px;
         padding: 0;
         display: flex;
@@ -900,7 +908,7 @@ form {
     }
 
     .formulario-frases {
-        width: 176px;
+        width: 100%;
         height: 19px;
         
         font-family: 'Raleway';
@@ -965,6 +973,8 @@ form {
     }
 
     footer {
+
+
         width: 265px;
         height: 38px;
         
@@ -981,6 +991,8 @@ form {
         
 
     }
-
+    #remove{
+        display: none;
+    }
 
 }
